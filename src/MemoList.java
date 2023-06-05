@@ -1,3 +1,4 @@
+import java.util.Collection;
 import java.util.LinkedList;
 import java.util.Scanner;
 
@@ -31,7 +32,6 @@ public class MemoList {
         System.out.println("메모가 작성되었습니다");
         System.out.println("");
     }
-
     // 메소드3: 글 번호를 넘겨받아 글 번호에 해당하는 글 1건을 리턴
     public Memo checkMemo() {
         Scanner scanner = new Scanner(System.in);
@@ -110,4 +110,4 @@ public class MemoList {
     }
 
 
-}
+    }
