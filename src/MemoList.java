@@ -22,6 +22,7 @@ public class MemoList {
                 if (inputPassword.equals(memo.getPassword())) {
                     System.out.println("글을 수정합니다. 내용을 입력해주세요.");
                     String newContext = sc.nextLine();
+                    memo.setContext(newContext);
                 } else {
                     System.out.println("비밀번호가 일치하지 않습니다!");
                 }
