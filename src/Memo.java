@@ -35,4 +35,7 @@ public class Memo {
         this.Context = newContext;
     }
 
+    // 메모 번호 설정 메소드
+    public void setNumber(Integer number) { this.Number = number; }
+
 }
