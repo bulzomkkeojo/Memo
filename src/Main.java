@@ -13,7 +13,7 @@ public class Main {
             System.out.println("2. 목록 보기");
             System.out.println("3. 수정");
             System.out.println("4. 삭제");
-            System.out.println("5. 종료 메뉴");
+            System.out.println("5. 종료");
             String menu_input = sc.nextLine();
 
             if (Objects.equals(menu_input,"1")) {
@@ -40,7 +40,7 @@ public class Main {
                 memoList.resetNumber();
             } else if (Objects.equals(menu_input,"5")) {
                 // 팀원 5
-                System.out.println("5. 종료 메뉴\n");
+                System.out.println("5. 종료\n");
                 System.out.println("메모장을 종료합니다.");
                 memo_start = false;
             } else {
