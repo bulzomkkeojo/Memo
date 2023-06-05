@@ -2,18 +2,12 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class Memo {
-
     Integer Number;                    // 메모 번호
     String Name, Password, Context, MemoDate;    // 작성자 이름, 비밀번호, 메모 내용, 작성일
-
     public Integer getNumber() { return Number; }
-
     public String getName() { return Name; }
-
     public String getPassword() { return Password; }
-
     public String getContext() { return Context; }
-
     public String getMemoDate() { return MemoDate; }
 
     // 메모 생성자
