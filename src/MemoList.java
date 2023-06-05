@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class MemoList {
     // 메소드1: 메모 전체 조회 가능-작성 최신순으로 (Getter, Setter)
     LinkedList<Memo> memoList = new LinkedList<>();
-
     // 메소드2: 메모 리스트의 1건의 메모 추가하기
     public void addMemo() {
         System.out.println("");
