@@ -14,8 +14,6 @@ public class MemoList {
 
     // 메소드2: 메모 리스트의 1건의 메모 추가하기
     public void addMemo() {
-        System.out.println();
-
         Scanner sc = new Scanner(System.in);
         System.out.println("이름을 입력해주세요");
         String Name = sc.nextLine();
@@ -32,6 +30,7 @@ public class MemoList {
         System.out.println("메모가 작성되었습니다");
         System.out.println("");
     }
+
     // 메소드3: 글 번호를 넘겨받아 글 번호에 해당하는 글 1건을 리턴
     public Memo checkMemo() {
         Scanner scanner = new Scanner(System.in);
@@ -109,5 +108,4 @@ public class MemoList {
         }
     }
 
-
-    }
+}
