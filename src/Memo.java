@@ -7,7 +7,9 @@ public class Memo {
     public Integer getNumber() { return Number; }
     public String getName() { return Name; }
     public String getPassword() { return Password; }
+
     public String getContext() { return Context; }
+
     public String getMemoDate() { return MemoDate; }
 
     // 메모 생성자

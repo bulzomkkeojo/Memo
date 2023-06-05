@@ -1,13 +1,19 @@
+import java.util.Scanner;
+
 public class MemoList {
     // 메소드1: 메모 전체 조회 가능-작성 최신순으로 (Getter, Setter)
 
     // 메소드2: 메모 리스트의 1건의 메모 추가하기
 
     // 메소드3: 글 번호를 넘겨받아 글 번호에 해당하는 글 1건을 리턴
-    public static Memo checkMemo(Interger number) {
+    public static Memo checkMemo() {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("번호를 입력해주세요 : ");
+        int memoNum = scanner.nextInt();
 
         for (Memo memo : memoList) {
-            if (memo.getNumber() == number) {
+            if (memo.getNumber() == memoNum) {
                 return memo;
             }
         }
