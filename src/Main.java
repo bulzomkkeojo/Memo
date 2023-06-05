@@ -30,14 +30,14 @@ public class Main {
             } else if (Objects.equals(menu_input,"3")) {
                 // 팀원 3
                 System.out.println("3. 수정\n");
-//                memoList.checkMemo();
-//                memoList.수정();
+                Memo memo_u = memoList.checkMemo();
+                memoList.updateMemo(memo_u);
             } else if (Objects.equals(menu_input,"4")) {
                 // 팀원 4
                 System.out.println("4. 삭제\n");
-//                memoList.checkMemo();
-//                memoList.deleteMemo();
-//                memoList.resetNumber();
+                Memo memo_d = memoList.checkMemo();
+                memoList.deleteMemo(memo_d);
+                memoList.resetNumber();
             } else if (Objects.equals(menu_input,"5")) {
                 // 팀원 5
                 System.out.println("5. 종료 메뉴\n");
