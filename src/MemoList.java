@@ -4,7 +4,7 @@ public class MemoList {
     // 메소드2: 메모 리스트의 1건의 메모 추가하기
 
     // 메소드3: 글 번호를 넘겨받아 글 번호에 해당하는 글 1건을 리턴
-    private static Memo checkMemo(Interger number) {
+    public static Memo checkMemo(Interger number) {
 
         for (Memo memo : memoList) {
             if (memo.getNumber() == number) {
