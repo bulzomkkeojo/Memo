@@ -6,18 +6,28 @@ public class Memo {
     Integer Number;                    // 메모 번호
     String Name, Password, Context, MemoDate;    // 작성자 이름, 비밀번호, 메모 내용, 작성일
 
-    public Integer getNumber() { return Number; }
+    public Integer getNumber() {
+        return Number;
+    }
 
-    public String getName() { return Name; }
+    public String getName() {
+        return Name;
+    }
 
-    public String getPassword() { return Password; }
+    public String getPassword() {
+        return Password;
+    }
 
-    public String getContext() { return Context; }
+    public String getContext() {
+        return Context;
+    }
 
-    public String getMemoDate() { return MemoDate; }
+    public String getMemoDate() {
+        return MemoDate;
+    }
 
     // 메모 생성자
-    public Memo (Integer Number, String Name, String Password, String Context) {
+    public Memo(Integer Number, String Name, String Password, String Context) {
         this.Number = Number;
         this.Name = Name;
         this.Password = Password;
@@ -33,6 +43,18 @@ public class Memo {
     // 메모 내용 설정 메소드
     public void setContext(String newContext) {
         this.Context = newContext;
+    }
+
+    public void setNumber(Integer number) {
+        Number = number;
+    }
+
+    public void setName(String name) {
+        Name = name;
+    }
+
+    public void setPassword(String password) {
+        Password = password;
     }
 
 }
