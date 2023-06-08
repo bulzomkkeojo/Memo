@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=200&section=header&text=불좀꺼조&fontSize=70)
+![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=불좀꺼조&fontSize=70)
 ## 🎇 불좀꺼조
 📝 Spring_6기 A반 1조 메모장 프로그램 📝
 
